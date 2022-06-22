@@ -29,6 +29,8 @@
     display: flex;
     justify-content: center;
     background-color: #161a21;
+    position: fixed;
+    bottom: 0;
 }
 
 .paginator div{
@@ -72,10 +74,12 @@
         border-bottom: 1px solid white;
     }
     .paginator{
-        width: 150%;
+        width: 100%;
         display: flex;
         justify-content: center;
         background-color: #161a21;
+        position: fixed;
+        bottom: 0
     }
     .paginator div{
         margin: 25px 50px 25px 50px;
