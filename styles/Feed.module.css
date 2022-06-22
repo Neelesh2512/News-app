@@ -1,0 +1,56 @@
+.main{
+    display: flex;
+    margin-top: 50px;
+    align-items: center;
+    flex-direction: column;
+    background-color:#0e1117;
+    color: white;
+}
+
+.post{
+    width: 500px;
+    margin-bottom: 25px;
+    padding-bottom: 25px;
+    border-bottom: 1px solid white;
+}
+
+.post img{
+    width: 100%;
+}
+
+.post h1{
+    font-size: 20px;
+    cursor: pointer;
+    text-align: center;
+}
+
+.paginator{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    background-color: #161a21;
+}
+
+.paginator div{
+    margin: 25px 50px 25px 50px;
+    background-color: #161a21;
+    color: grey; 
+    border: 1px solid white;
+    padding: 25px;
+    border-radius: 25px;
+}
+
+.paginator div:hover{
+    background-color: #11141a;
+    color: aliceblue; 
+    border: 1px solid white;
+}
+
+.paginator .active{
+    cursor: pointer;
+}
+
+.paginator .disabled{
+    cursor: not-allowed;
+    color: grey;
+}
