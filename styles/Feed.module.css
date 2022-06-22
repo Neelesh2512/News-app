@@ -1,6 +1,6 @@
 .main{
     display: flex;
-    margin-top: 50px;
+    margin: 50px 0px 10000px 0px;
     align-items: center;
     flex-direction: column;
     background-color:#0e1117;
@@ -28,7 +28,7 @@
     width: 100%;
     display: flex;
     justify-content: center;
-    background-color: #161a21;
+    background-color: #161a21dc;
     position: fixed;
     bottom: 0;
 }
@@ -59,7 +59,7 @@
 
 @media only screen and (max-width: 600px) {
    .main{
-    width: 150%;
+    width: 100%;
     margin-left: 0px;
    }
 
@@ -82,12 +82,12 @@
         bottom: 0
     }
     .paginator div{
-        margin: 25px 50px 25px 50px;
+        margin: 10px 5px 10px 5px;
         background-color: #161a21;
         color: grey; 
         border: 1px solid white;
-        padding: 25px;
-        border-radius: 25px;
+        padding: 10px;
+        
     }
 
     .paginator div:hover{
