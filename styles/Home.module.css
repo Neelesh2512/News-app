@@ -17,3 +17,11 @@
   font-size: 20px;
   margin-top: 0px;
 }
+
+@media only screen and (max-width: 600px) {
+  .main h1{
+    font-size: 100px;
+    text-align: center;
+  }
+
+}
