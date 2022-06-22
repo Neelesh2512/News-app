@@ -19,9 +19,10 @@
 }
 
 .post h1{
-    font-size: 20px;
+    font-size: 30px;
     cursor: pointer;
-    text-align: center;
+    text-align: left;
+    color: #166fde;
 }
 
 .paginator{
